@@ -52,7 +52,7 @@ const TitleCard = () => {
       <HStack spacing={1} mt={3}>
         <MotionButton
           borderRadius={50}
-          borderWidth={3}
+          borderWidth={2}
           width={"11rem"}
           size={"lg"}
           onClick={redirectToAboutMe}
@@ -65,7 +65,7 @@ const TitleCard = () => {
         <Image src={Portrait} width={"8rem"} p={3} borderRadius={75}></Image>
         <MotionButton
           borderRadius={50}
-          borderWidth={3}
+          borderWidth={2}
           width={"11rem"}
           size={"lg"}
           onClick={redirectToProjects}
