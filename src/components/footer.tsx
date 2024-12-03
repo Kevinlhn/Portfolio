@@ -1,9 +1,10 @@
-import { HStack, Button, Link } from "@chakra-ui/react";
+import { HStack, Button, Link, VStack} from "@chakra-ui/react";
 import { FaLinkedinIn, FaRegFile } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
   return (
+  <VStack>
     <HStack spacing={3} backdropFilter="auto"
     backdropBlur="100px" p={1} borderRadius={100}>
       <Link href="https://github.com/Kevinlhn" isExternal>
@@ -22,10 +23,11 @@ const Footer = () => {
         isExternal
       >
         <Button variant={"ghost"} size={"sm"} leftIcon={<FaRegFile />}>
-          Résumé
+          Resume
         </Button>
       </Link>
     </HStack>
+  </VStack>
   );
 };
 
