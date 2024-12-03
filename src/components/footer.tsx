@@ -4,7 +4,8 @@ import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <HStack spacing={3}>
+    <HStack spacing={3} backdropFilter="auto"
+    backdropBlur="100px" p={1} borderRadius={100}>
       <Link href="https://github.com/Kevinlhn" isExternal>
         <Button variant={"ghost"} size={"sm"} leftIcon={<FiGithub />}>
           GitHub

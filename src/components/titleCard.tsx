@@ -34,18 +34,19 @@ const TitleCard = () => {
 
   return (
     <Container centerContent>
-      <Text fontSize={"sm"}>SOFTWARE ENGINEER</Text>
+      <Text fontSize={"sm"} letterSpacing={"0.6vw"}>COMPUTER ENGINEER</Text>
       <Heading
         p={1}
         size="xl"
         whiteSpace="nowrap"
         overflow="hidden"
         textOverflow="ellipsis"
+        letterSpacing={"0.3vw"}
       >
         KEVIN HERNANDEZ-NINO
       </Heading>
       <Flex>
-        <Text fontSize={"11px"} fontStyle={"italic"}>
+        <Text fontSize={"11px"} fontStyle={"italic"} p={1}>
           "BUILDING THE FUTURE, ONE LINE OF CODE AT A TIME."
         </Text>
       </Flex>
