@@ -1,6 +1,7 @@
 import { ChakraProvider, Flex, theme } from "@chakra-ui/react";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
+import CirclePointer from "./components/CirclePointer";
 
 import { HomePage } from "./pages/home";
 import { Routes, Route } from "react-router-dom";
@@ -9,6 +10,7 @@ import { AboutPage } from "./pages/about";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
+    <CirclePointer />
     <Flex as={"header"} position={"fixed"} width={"100%"} zIndex={2}>
       <NavBar />
     </Flex>
