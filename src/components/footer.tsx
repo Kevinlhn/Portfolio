@@ -18,7 +18,7 @@ const Footer = () => {
       </Link>
       ;
       <Link
-        href="https://drive.google.com/file/d/1trAXcoPsCIbop7zgwyjzdaeHrCr_CLa3/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Qge2cA39ncfxlJizEVN7hyRhuLIn8SJZ/view?usp=share_link"
         isExternal
       >
         <Button variant={"ghost"} size={"sm"} leftIcon={<FaRegFile />}>
