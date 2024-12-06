@@ -47,7 +47,7 @@ const TitleCard = () => {
       </Heading>
       <Flex>
         <Text fontSize={"11px"} fontStyle={"italic"} p={1}>
-          "BUILDING THE FUTURE, ONE LINE OF CODE AT A TIME."
+          "BUILDING A FUTURE, ONE LINE OF CODE AT A TIME."
         </Text>
       </Flex>
       <HStack spacing={1} mt={3}>
