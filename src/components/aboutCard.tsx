@@ -14,7 +14,7 @@ export const AboutCard = () => {
         >
           <Heading
           px={5}
-            size="2xl"
+            size={"xl"}
             fontWeight="extrabold"
             letterSpacing="wide"
             lineHeight="1.2">
@@ -22,11 +22,10 @@ export const AboutCard = () => {
           </Heading>
           </Card>
         <Box
-        p={20}
-        mt={"1vh"}
-        width={"150%"}
+        p={5}
+        mt={"5vh"}
          >
-          <Text letterSpacing={"wide"} lineHeight={"10"}>
+          <Text letterSpacing={"wide"} fontSize={"1.5vh"}>
   I am a computer engineer and developer based in{" "}
   <Text as="span" fontWeight="extrabold" color="blue.500">Washington, United States</Text>.
   My passion lies in{" "}
@@ -48,7 +47,8 @@ export const AboutCard = () => {
     my husky, Mia
   </Text>
   , is always nearby, making life brighter (and sneaking a slice whenever she can).  
-</Text>    </Box>
+</Text>    
+</Box>
     </Container>
   );
 };
