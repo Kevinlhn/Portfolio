@@ -21,7 +21,7 @@ export const AboutCard = () => {
             Hi there, I'm Kevin.
           </Heading>
           </Card>
-        <Box
+          <Box
         p={5}
         mt={"5vh"}
          >
