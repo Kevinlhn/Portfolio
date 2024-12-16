@@ -4,31 +4,15 @@ import * as ReactDOM from "react-dom/client";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const container = document.getElementById("root");
 if (!container) throw new Error("Failed to find the root element");
 const root = ReactDOM.createRoot(container);
 
-// Component to handle redirection from 404.html
-const RedirectHandler = () => {
-  const navigate = useNavigate();
-
-  React.useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const redirectPath = params.get("redirect");
-    if (redirectPath) {
-      navigate(redirectPath, { replace: true });
-    }
-  }, [navigate]);
-
-  return null; // No visible UI
-};
-
 root.render(
   <React.StrictMode>
     <Router>
-      <RedirectHandler /> {/* Handle redirection */}
       <ColorModeScript />
       <App />
     </Router>
