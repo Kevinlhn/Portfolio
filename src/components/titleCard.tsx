@@ -46,7 +46,7 @@ const TitleCard = () => {
         KEVIN HERNANDEZ-NINO
       </Heading>
       <Flex>
-        <Text fontSize={"11px"} fontStyle={"italic"} p={1}>
+        <Text fontSize={"11px"} p={1}>
           "BUILDING A FUTURE, ONE LINE OF CODE AT A TIME."
         </Text>
       </Flex>
