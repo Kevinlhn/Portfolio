@@ -6,11 +6,17 @@
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript">
-      // Redirect to the index.html file with the current path preserved
+      // Redirect to the index.html without using query strings
       (function () {
-        var currentUrl = window.location.pathname + window.location.search + window.location.hash;
-        var newUrl = window.location.origin + "/?" + currentUrl;
-        window.location.replace(newUrl);
+        var pathname = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+
+        // If the current URL is not the root, redirect to the root while preserving the path and hash
+        if (pathname !== "/") {
+          var newUrl = "/" + pathname + search + hash;
+          window.location.replace(newUrl);
+        }
       })();
     </script>
   </head>
