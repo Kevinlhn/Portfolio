@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.54c3443a.js",
+    "main.js": "/static/js/main.55f0b826.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
+    "static/media/leftovers logo.png": "/static/media/leftovers logo.7782219df9d700703167.png",
     "static/media/portrait.png": "/static/media/portrait.e95c12389e7e68afd999.png",
     "index.html": "/index.html",
-    "main.54c3443a.js.map": "/static/js/main.54c3443a.js.map",
+    "main.55f0b826.js.map": "/static/js/main.55f0b826.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.54c3443a.js"
+    "static/js/main.55f0b826.js"
   ]
 }
