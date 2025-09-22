@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.55f0b826.js",
+    "main.js": "/static/js/main.b18624a4.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
-    "static/media/leftovers logo.png": "/static/media/leftovers logo.7782219df9d700703167.png",
     "static/media/portrait.png": "/static/media/portrait.e95c12389e7e68afd999.png",
+    "static/media/leftovers.png": "/static/media/leftovers.51295fff70729cfef11d.png",
+    "static/media/spotter.png": "/static/media/spotter.5806b03fc12c1bb212c6.png",
+    "static/media/balance.png": "/static/media/balance.8e5bd00ff3a6a70d8eb3.png",
     "index.html": "/index.html",
-    "main.55f0b826.js.map": "/static/js/main.55f0b826.js.map",
+    "main.b18624a4.js.map": "/static/js/main.b18624a4.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.55f0b826.js"
+    "static/js/main.b18624a4.js"
   ]
 }
