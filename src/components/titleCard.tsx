@@ -50,7 +50,7 @@ const TitleCard = () => {
           "BUILDING A FUTURE, ONE LINE OF CODE AT A TIME."
         </Text>
       </Flex>
-      <HStack spacing={1} mt={3}>
+      <HStack spacing={1} mt={3} px={3}>
         <MotionButton
           borderRadius={50}
           borderWidth={2}
