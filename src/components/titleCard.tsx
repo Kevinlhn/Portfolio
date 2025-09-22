@@ -36,7 +36,7 @@ const TitleCard = () => {
     <Container centerContent>
       <Text fontSize={"sm"} letterSpacing={"0.6vw"}>COMPUTER ENGINEER</Text>
       <Heading
-        p={1}
+        px={8}
         size="xl"
         whiteSpace="nowrap"
         overflow="hidden"

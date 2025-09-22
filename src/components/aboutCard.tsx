@@ -23,25 +23,26 @@ export const AboutCard = () => {
           </Card>
           <Box
         p={5}
-        mt={"5vh"}
+        mt={10}
+        textAlign={"center"}
          >
 <Text letterSpacing={"wide"} fontSize={"1.5vh"}>
-  I’m a computer engineer and developer based in{" "}
-  <Text as="span" fontWeight="extrabold" color="blue.300">Washington, United States</Text>.
-  I’m passionate about{" "}
-  <Text as="span" fontWeight="extrabold" color="blue.300">software development</Text>
-  , with a strong interest in{" "}
-  <Text as="span" fontWeight="extrabold" color="blue.300">front-end design and UI/UX</Text>
-  ,  but I'm always eager to contribute on any tech projects that bring value and make a difference.
-  Though I was born in the US, my family is from{" "}
-  <Text as="span" fontWeight="extrabold" color="blue.300">Mexico</Text>,
-  and I take pride in celebrating my Hispanic heritage, especially through its amazing food.
- Outside, you’ll often find me behind a camera, indulging my passion for{" "}
-  <Text as="span" fontWeight="extrabold" color="blue.300">photography</Text>.
-  I love capturing meaningful moments and experimenting with editing to bring my vision to life.      
-  And after a productive day, nothing beats enjoying a slice of pizza with{" "}
-  <Text as="span" fontWeight="extrabold" color="blue.300">my husky, Mia</Text>,
-  who’s always nearby, making life brighter (and sneaking a slice whenever she can).  
+  I’m currently based in
+  <Text as="span"  color="blue.300"> Washington, United States. </Text>
+  I'm a computer engineer.
+  Lately, I’ve been especially drawn to
+  <Text as="span"  color="blue.300"> software development</Text>
+  , with a strong interest in
+  <Text as="span"  color="blue.300"> front-end design and UI/UX</Text>
+  , though I’m always open to new challenges and eager to keep learning. 
+  When I’m not coding, I’m usually with my wife, 
+  <Text as="span" fontWeight="extrabold" color="blue.300"> Molly</Text>,
+  and our two huskies,
+  <Text as="span" fontWeight="extrabold" color="blue.300"> Mia and Kody</Text>
+  , who basically run the house 
+  (my wife first, of course 🙂).  
+  I enjoy <Text as="span"  color="blue.300">photography</Text>, going to the <Text as="span"  color="blue.300">gym</Text>, and then completely canceling it out 
+  by never turning down a good tacos/pizza night.
 </Text>   
 </Box>
     </Container>
